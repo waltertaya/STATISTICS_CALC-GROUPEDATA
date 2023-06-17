@@ -1,6 +1,6 @@
 # Statistics Calculator
 
-![Statistics Image](statistics_image.png)
+![Statistics Image](statistics_image.jpeg)
 
 A Python program that performs statistical calculations on data. The program utilizes the `statistics` module in Python to calculate various statistical measures such as mean, median, mode, variance, standard deviation and quartiles.
 
