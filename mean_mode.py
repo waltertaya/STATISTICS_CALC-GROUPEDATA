@@ -13,5 +13,5 @@ def calculate_mode(classes,n,frequency):
     for i in range(n):
         if frequency[i]>mode:
             mode = frequency[i]
-        mode_class = classes[i]
+            mode_class = classes[i]
     return(mode,mode_class)

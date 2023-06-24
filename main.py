@@ -13,7 +13,7 @@ for lower, upper in classes:
 print(midpoints)
 frequency = []
 for i in range(n):
-    count = int(input('Enter the frequencies inorder of the classes: '))
+    count = eval(input('Enter the frequencies inorder of the classes: '))
     frequency.append(count)
 print(frequency)
 import pandas as pd
@@ -34,3 +34,6 @@ print(mode,mode_class)
 import standardeviation
 variance,std_dev = standardeviation.calculate_variance(frequency,midpoints,n,total)
 print(variance,std_dev)
+import quartiles
+q1, q2, q3 = quartiles.calculate_quartiles(classes,total,n,frequency)
+print(q1, q2, q3)
